@@ -4,8 +4,7 @@ $area="";
 $email="fatina@gmail.com";
 $height="156";
 $width="55";
-$area= $width+$height;
-echo("the area value is:".$area);
+echo ($area= $width+$height);
 
 echo 'My name is "' . $name . '" and my email is "' . $email . '".';
 ?>
